@@ -35,7 +35,7 @@ export const projectsData = [
       'This project uses the CoinGecko API to pull down the current price & price history of selected crypto currencies.',
     info2:
       ' It then saves the data in local storage so when the user returns thier selected currencies are displayed.',
-    url: '',
+    url: 'https://dreamy-bhaskara-28a950.netlify.app/',
     repo: 'https://github.com/Billy-2727/CryptoAPI-Project/', // if no repo, the button will not show up
   },
   {
