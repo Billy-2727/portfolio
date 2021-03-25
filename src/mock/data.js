@@ -11,27 +11,30 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Billy Morrison',
-  subtitle: 'A UK based front end web developer, with a passion for learning and a love for all things tech.',
+  subtitle:
+    'A UK based front end web developer, with a passion for learning and a love for all things tech.',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: '',
+  img: 'js.png',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'Test', // if no resume, the button will not show up
+  resume: 'https://pdfhost.io/v/R60RN~kTz_Billy_Morrison_CVpdf.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'Project1.PNG',
     title: 'Crypto-Tracker - React Project',
-    info: 'This project uses the CoinGecko API to pull down the current price & price history of selected crypto currencies.',
-    info2: ' It then saves the data in local storage so when the user returns thier selected currencies are displayed.',
+    info:
+      'This project uses the CoinGecko API to pull down the current price & price history of selected crypto currencies.',
+    info2:
+      ' It then saves the data in local storage so when the user returns thier selected currencies are displayed.',
     url: '',
     repo: 'https://github.com/Billy-2727/CryptoAPI-Project/', // if no repo, the button will not show up
   },
@@ -39,9 +42,10 @@ export const projectsData = [
     id: nanoid(),
     img: 'Project2.PNG',
     title: 'Loan Repayment Calculator',
-    info: 'In this project I use a calculation within JavaScript to diplay a users monthly loan replayments, the total interest and the final amount to be paid',
+    info:
+      'In this project I use a calculation within JavaScript to diplay a users monthly loan replayments, the total interest and the final amount to be paid',
     info2: 'This project uses materializecss to get a basic form inplace',
-    url: '',
+    url: 'https://vigorous-bhabha-6e3b9f.netlify.app/',
     repo: 'https://github.com/Billy-2727/Loan-Calculator', // if no repo, the button will not show up
   },
   {

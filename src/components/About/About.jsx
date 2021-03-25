@@ -25,7 +25,7 @@ const About = () => {
   return (
     <section id="about">
       <Container>
-        <Title title="My Skills" />
+        <Title title="About Me" />
         <Row className="about-wrapper">
           <Col md={6} sm={12}>
             <Fade bottom duration={1000} delay={600} distance="30px">
@@ -39,14 +39,15 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    'I am a web developer focused on writing clean and readable code that translates onto webpages the same way, I am currently focusing on learning JavaScript alongside React as well as dipping my toes into Gatsby, which is what this portfolio is made on,'}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    'I started my journey in IT through an apprenticeship program which landed me a job on a small help desk team but I am looking to further deepen my problem solving skills and learn all I can about programming'}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                  {paragraphThree ||
+                    'If you would like to know more please click the button below which will take you to my resume'}
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
