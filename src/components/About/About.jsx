@@ -47,7 +47,7 @@ const About = () => {
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphThree ||
-                    'If you would like to know more please click the button below which will take you to my resume'}
+                    'I am looking to join a company that will aid me in expanding my current skillset as well as giving me the oppertunity to add onto on via new technologies '}
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
