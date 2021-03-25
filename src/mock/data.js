@@ -32,7 +32,7 @@ export const projectsData = [
     img: 'Project1.PNG',
     title: 'Crypto-Tracker - React Project',
     info:
-      'This project uses the CoinGecko API to pull down the current price & price history of selected crypto currencies.',
+      'This project uses the CoinGecko API to pull down the current price and price history of selected crypto currencies.',
     info2:
       ' It then saves the data in local storage so when the user returns thier selected currencies are displayed.',
     url: 'https://dreamy-bhaskara-28a950.netlify.app/',
