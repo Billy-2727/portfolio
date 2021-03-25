@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
+  title: 'Home|Billy Morrison', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
   description: '', // e.g: Welcome to my website
 };
@@ -10,18 +10,18 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
+  name: 'Billy Morrison',
+  subtitle: 'A UK based front end web developer, with a passion for learning and a love for all things tech.',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: '',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'Test', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -29,11 +29,20 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    title: 'Crypto-Tracker - React Project',
+    info: 'This project uses the CoinGecko API to pull down the current price & price history of selected crypto currencies.',
+    info2: ' It then saves the data in local storage so when the user returns thier selected currencies are displayed.',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/Billy-2727/CryptoAPI-Project/', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'Project2.PNG',
+    title: 'Loan Repayment Calculator',
+    info: 'In this project I use a calculation within JavaScript to diplay a users monthly loan replayments, the total interest and the final amount to be paid',
+    info2: 'This project uses materializecss to get a basic form inplace',
+    url: '',
+    repo: 'https://github.com/Billy-2727/Loan-Calculator', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -42,16 +51,7 @@ export const projectsData = [
     info: '',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: '', // if no repo, the button will not show up
   },
 ];
 
@@ -59,7 +59,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'billy.morrison27@gmail.com',
 };
 
 // FOOTER DATA
@@ -67,23 +67,13 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/billy-morrison-aa852a185/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/Billy-2727',
     },
   ],
 };
