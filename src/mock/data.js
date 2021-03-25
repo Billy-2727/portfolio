@@ -36,7 +36,7 @@ export const projectsData = [
     info2:
       ' It then saves the data in local storage so when the user returns thier selected currencies are displayed.',
     url: 'https://dreamy-bhaskara-28a950.netlify.app/',
-    repo: 'https://github.com/Billy-2727/CryptoAPI-Project/', // if no repo, the button will not show up
+    repo: 'https://github.com/Billy-2727/crypto-tracker', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
