@@ -44,7 +44,7 @@ export const projectsData = [
     title: 'Loan Repayment Calculator',
     info:
       "In this project I use a calculation within JavaScript to diplay a user's monthly loan replayments, the total interest and the final amount to be paid",
-    info2: 'This project uses Materialize to get a basic form inplace that would look good but also fits inline with googles standards of UI/UX',
+    info2: 'This project uses Materialize to get a basic form in place that would look good but also fits inline with googles standards of UI/UX',
     url: 'https://vigorous-bhabha-6e3b9f.netlify.app/',
     repo: 'https://github.com/Billy-2727/Loan-Calculator', // if no repo, the button will not show up
   },
