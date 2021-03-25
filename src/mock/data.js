@@ -34,7 +34,7 @@ export const projectsData = [
     info:
       'This project uses the CoinGecko API to pull down the current price and price history of selected crypto currencies.',
     info2:
-      ' It then saves the data in local storage so when the user returns thier selected currencies are displayed.',
+      ' It then saves the data in local storage so when the user returns, their selected currencies are displayed.',
     url: 'https://dreamy-bhaskara-28a950.netlify.app/',
     repo: 'https://github.com/Billy-2727/crypto-tracker', // if no repo, the button will not show up
   },
@@ -43,8 +43,8 @@ export const projectsData = [
     img: 'Project2.PNG',
     title: 'Loan Repayment Calculator',
     info:
-      'In this project I use a calculation within JavaScript to diplay a users monthly loan replayments, the total interest and the final amount to be paid',
-    info2: 'This project uses materializecss to get a basic form inplace',
+      "In this project I use a calculation within JavaScript to diplay a user's monthly loan replayments, the total interest and the final amount to be paid",
+    info2: 'This project uses Materialize to get a basic form inplace that would look good but also fits inline with googles standards of UI/UX',
     url: 'https://vigorous-bhabha-6e3b9f.netlify.app/',
     repo: 'https://github.com/Billy-2727/Loan-Calculator', // if no repo, the button will not show up
   },
