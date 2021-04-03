@@ -22,7 +22,7 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://pdfhost.io/v/R60RN~kTz_Billy_Morrison_CVpdf.pdf', // if no resume, the button will not show up
+  resume: 'https://pdfhost.io/v/R60RN~kTz_Billy_Morrison_CVpdf.pdf',
 };
 
 // PROJECTS DATA
@@ -36,7 +36,7 @@ export const projectsData = [
     info2:
       ' It then saves the data in local storage so when the user returns, their selected currencies are displayed.',
     url: 'https://dreamy-bhaskara-28a950.netlify.app/',
-    repo: 'https://github.com/Billy-2727/crypto-tracker', // if no repo, the button will not show up
+    repo: 'https://github.com/Billy-2727/crypto-tracker',
   },
   {
     id: nanoid(),
@@ -44,18 +44,21 @@ export const projectsData = [
     title: 'Loan Repayment Calculator',
     info:
       "In this project I use a calculation within JavaScript to diplay a user's monthly loan replayments, the total interest and the final amount to be paid",
-    info2: 'This project uses Materialize to get a basic form in place that would look good but also fits inline with googles standards of UI/UX',
+    info2:
+      'This project uses Materialize to get a basic form in place that would look good but also fits inline with googles standards of UI/UX',
     url: 'https://vigorous-bhabha-6e3b9f.netlify.app/',
-    repo: 'https://github.com/Billy-2727/Loan-Calculator', // if no repo, the button will not show up
+    repo: 'https://github.com/Billy-2727/Loan-Calculator',
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: '', // if no repo, the button will not show up
+    img: 'Project3.PNG',
+    title: 'Gatsby CMS Blog Page',
+    info:
+      'Gatsby is the main backbone of this project, is it used alongside Contentful CMS and GrapahQL',
+    info2:
+      'It works by using GraphQL which is part of Gatsby to pull down and query the Contentful API which inturn populates the blog section of the webpage, this allows a non technical person the ability to manage the blogs on the webpage without touching a line of code',
+    url: 'https://reverent-goodall-6b9447.netlify.app/',
+    repo: 'https://github.com/Billy-2727/CMS-Blog',
   },
 ];
 
